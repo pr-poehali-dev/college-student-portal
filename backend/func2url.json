@@ -1,0 +1,7 @@
+{
+  "notifications": "https://functions.poehali.dev/0934094f-f21e-4312-ac5a-009e1b0b1040",
+  "auth": "https://functions.poehali.dev/395fed53-bace-4508-9960-3fa956a301a6",
+  "schedule": "https://functions.poehali.dev/d2ad2bc4-e1af-4982-a19d-c3409e1a05eb",
+  "users": "https://functions.poehali.dev/806b258d-a2ba-47c3-8994-f1f4d327b35a",
+  "absences": "https://functions.poehali.dev/dfcbe19a-36f6-4fca-9c4e-45f24f996e5a"
+}

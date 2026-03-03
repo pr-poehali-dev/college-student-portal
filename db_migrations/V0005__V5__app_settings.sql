@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS app_settings (key VARCHAR(50) PRIMARY KEY, value TEXT NOT NULL); INSERT INTO app_settings (key, value) VALUES ('initialized', 'false') ON CONFLICT (key) DO NOTHING;

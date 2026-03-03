@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS schedule (id SERIAL PRIMARY KEY, day_of_week INT NOT NULL, lesson_number INT NOT NULL, subject VARCHAR(100) NOT NULL, teacher VARCHAR(100), room VARCHAR(20), time_start VARCHAR(10), time_end VARCHAR(10));

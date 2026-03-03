@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS absences (id SERIAL PRIMARY KEY, student_id INT NOT NULL REFERENCES users(id), schedule_id INT NOT NULL REFERENCES schedule(id), date DATE NOT NULL, reason TEXT DEFAULT NULL, is_valid BOOLEAN DEFAULT FALSE, created_by INT REFERENCES users(id), created_at TIMESTAMP DEFAULT NOW());
